@@ -1,0 +1,24 @@
+public class Main{
+    public static void main(String[] args){
+        String name="Anu";
+        int age=31;
+        System.out.println(age);
+        double convertedAge=age;
+        System.out.println(convertedAge);
+        String city="Nagercoil";
+        System.out.println(name);
+        System.out.println(age);
+        System.out.println(city);
+        byte level=100;
+        short year=2026;
+        long population=14000000L;
+        float rating=4.5f;
+        double salary=50000.75;
+        System.out.println(salary);
+        int roundedSalary=(int)salary;
+        System.out.println(roundedSalary);
+        char grade='A';
+        boolean isPlaced=true;
+        boolean isAbsent=false;
+    }
+}
